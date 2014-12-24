@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.valdasb.mano1.Treciaspsl">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/pagrindinis"
+        android:title="Pagrinidis psl"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    <item android:id="@+id/pirmas"
+        android:title="Pirmas psl"
+        android:orderInCategory="2"
+        android:showAsAction="always"/>
+    <item android:id="@+id/antras"
+        android:title="Antras psl"
+        android:orderInCategory="3"
+        android:showAsAction="always"/>
+</menu>
